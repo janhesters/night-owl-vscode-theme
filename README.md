@@ -79,6 +79,28 @@ I use this setting:
 
 ![Bracket](bracket.png)
 
+An alternative styling is to have the brackets match this theme:
+
+```
+"bracketPairColorizer.independentPairColors": [
+  [
+    "()",
+    ["#82AAFF", "#d6deeb", "#ffcb8b", "#c792ea", "#addb67", "#7fdbca", "#f78c6c"],
+    "#EF5350"
+  ],
+  [
+    "[]",
+    ["#c792ea", "#d6deeb", "#ffcb8b", "#7fdbca", "#82AAFF", "#f78c6c", "#addb67"],
+    "#EF5350"
+  ],
+  [
+    "{}",
+    ["#c792ea", "#82AAFF", "#addb67", "#ffcb8b", "#d6deeb", "#7fdbca", "#f78c6c"],
+    "#EF5350"
+  ]
+]
+```
+
 ## Misc
 
 This is my first foray into creating a theme, so if you see something amiss, please feel free to [file an issue](https://github.com/sdras/night-owl-vscode-theme/issues)! I'm sure there are things I missed.
